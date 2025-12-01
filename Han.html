@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Trang cá nhân</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #a8e0ff, #fceabb);
+        }
+
+        /* Thanh menu */
+        .menu {
+            background-color: #3b82f6;
+            padding: 10px 0;
+            text-align: center;
+        }
+  .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+        /* Nội dung chính */
+        .content {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .box {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+         h2 {
+            color: #2563eb;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        table, td {
+            border: 1px solid #ccc;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        ul, ol {
+            line-height: 1.8;
+        }
+          footer {
+            text-align: center;
+            padding: 10px;
+            color: #555;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- MENU -->
+<div class="menu">
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#sothich">Sở thích</a>
+    <a href="#monhoc">Môn học</a>
+</div>
+
+<div class="content">
+
+    <!-- GIỚI THIỆU -->
+    <div class="box" id="gioithieu">
+        <h2>Giới thiệu</h2>
+        <table>
+            <tr>
+                 <td>Họ tên</td>
+                <td>Lý Bội Hân</td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td>11B</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- SỞ THÍCH -->
+    <div class="box" id="sothich">
+        <h2>Sở thích</h2>
+        <ul>
+            <li>Vẽ tranh</li>
+            <li>Xem phim</li>
+            <li>Nhảy</li>
+        </ul>
+    </div>
+ <!-- MÔN HỌC YÊU THÍCH -->
+    <div class="box" id="monhoc">
+        <h2>Môn học yêu thích</h2>
+        <ol>
+            <li>Vẽ</li>
+            <li>Văn</li>
+            <li>Địa lý</li>
+        </ol>
+    </div>
+
+</div>
+
+<footer>
+    <p>Trang giới thiệu cá nhân của Lý Bội Hân</p>
+</footer>
+
+</body>
+</html>
